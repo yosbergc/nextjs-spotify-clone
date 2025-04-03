@@ -1,22 +1,31 @@
 .hero {
     background-color: #ab0055;
-    min-height: 500px;
+    min-height: 600px;
     padding: 50px 20px;
 }
 .hero h1 {
     font-size: 2.2rem;
     margin-bottom: 20px;
+    max-width: 800px;
 }
-
 .hero p {
     font-size: 1.2rem;
     margin-bottom: 20px;
+    max-width: 800px;
 }
-
 .hero button {
     display: flex;
     align-items: center;
     gap: 8px;
     font-size: 1rem;
     font-weight: 600;
+}
+@media (min-width: 768px) {
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
 }
