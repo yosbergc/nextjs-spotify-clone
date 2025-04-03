@@ -4,14 +4,16 @@
     padding: 50px 20px;
 }
 .hero h1 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
     max-width: 800px;
+    text-wrap: balance;
 }
 .hero p {
     font-size: 1.2rem;
     margin-bottom: 20px;
     max-width: 800px;
+    text-wrap: balance;
 }
 .hero button {
     display: flex;
