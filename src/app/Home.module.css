@@ -1,0 +1,22 @@
+.hero {
+    background-color: #ab0055;
+    min-height: 500px;
+    padding: 50px 20px;
+}
+.hero h1 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+}
