@@ -1,5 +1,5 @@
 .hero {
-    background-color: #ab0055;
+    background: linear-gradient(#ab0055, #4b0025);
     min-height: 600px;
     padding: 50px 20px;
 }

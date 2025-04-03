@@ -7,7 +7,7 @@ import { FiTv } from "react-icons/fi";
 function Features() {
     return (
         <section className={styles.features}>
-            <h2>Enjoy Spotify in your favorite devices.</h2>
+            <h2>Enjoy Spotify in your favorite devices</h2>
             <section className={styles.featuresGrid}>
                 <div className={styles.featureSingle}>
                     <CiMobile3 color='white' size={50}/>
