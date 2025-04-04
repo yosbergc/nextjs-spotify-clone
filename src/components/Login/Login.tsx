@@ -2,6 +2,7 @@
 import { LuMenu } from "react-icons/lu";
 import { useWindoWidth } from "@/hooks/useWindoWidth";
 import styles from './Login.module.css'
+import Link from 'next/link'
 function Login() {
     const [width] = useWindoWidth()
     return (
@@ -12,7 +13,7 @@ function Login() {
             {
                 width >= 768 && (
                     <section className={styles.innerlogin}>
-                        <button className="primary-btn">Log In</button>
+                        <Link className="primary-btn" href="/login">Log In</Link>
                         <button className="secondary-btn">Sign Up</button>
                     </section>
                 )
