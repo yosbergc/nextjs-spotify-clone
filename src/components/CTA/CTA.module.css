@@ -1,0 +1,17 @@
+.CTA {
+    max-width: 1268px;
+    margin: 50px auto;
+    background: linear-gradient(#ab0055, #4f0128);
+    padding: 150px 20px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.CTA h2 {
+    font-size: 2rem;
+    max-width: 500px;
+    text-wrap: balance;
+    margin-bottom: 20px;
+    text-align: center;
+}
