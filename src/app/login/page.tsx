@@ -5,7 +5,8 @@ export default function LoginPage() {
     return (
         <section className={styles.Login}>
             <form>
-                <h1>Login</h1>
+                <Image src="/logo.png" width={50} height={50} alt='Spotify Logo'></Image>
+                <h1>Login in Spotify</h1>
                 <label htmlFor="email">Email</label>
                 <input type="email" name="email" placeholder='your-email@email.com'/>
                 <label htmlFor="password">Password</label>
