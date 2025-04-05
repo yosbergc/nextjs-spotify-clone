@@ -1,11 +1,18 @@
 .searchInput {
     height: 40px;
-    background-color: #1f1f1f;
     border: none;
+    background: none;
+    width: 100%;
+    color: white;
+    padding: 20px 10px;
+}
+.searchContainerDesktop {
+    display: flex;
+    align-items: center;
+    background-color: #1f1f1f;
     border-radius: 8px;
     width: 400px;
-    color: white;
-    padding: 20px;
+    padding: 0px 10px;
 }
 .searchInput:focus {
     outline: none;

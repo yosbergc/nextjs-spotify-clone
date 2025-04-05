@@ -13,7 +13,10 @@ function Search() {
             }
             {
                 width >= 768 && (
-                    <input type="text" placeholder="Twenty One Pilots... " className={styles.searchInput}/>
+                    <section className={styles.searchContainerDesktop}>
+                        <BiSearch color="white" size={25}/>
+                        <input type="text" placeholder="What do you want to listen?" className={styles.searchInput}/>
+                    </section>
                 )
             }
         </section>

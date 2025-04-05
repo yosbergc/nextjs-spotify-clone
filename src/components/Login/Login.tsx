@@ -14,7 +14,7 @@ function Login() {
                 width >= 768 && (
                     <section className={styles.innerlogin}>
                         <Link className="primary-btn" href="/login">Log In</Link>
-                        <button className="secondary-btn">Sign Up</button>
+                        <Link className="secondary-btn" href="/register">Sign Up</Link>
                     </section>
                 )
             }
