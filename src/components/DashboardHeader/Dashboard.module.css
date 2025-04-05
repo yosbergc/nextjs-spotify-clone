@@ -1,0 +1,12 @@
+.appHeader {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.secondPart {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
