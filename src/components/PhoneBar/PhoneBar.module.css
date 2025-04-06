@@ -1,0 +1,31 @@
+.phoneBar {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    bottom: 0px;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 30%);
+    font-weight: 500;
+    max-width: 400px;
+    transform: translateX(-50%);
+    left: 50%;
+}
+.phoneBar a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    color: #b3b3b3;
+    font-size: 0.9rem;
+}
+.phoneBar a svg {
+    margin-bottom: 5px;
+}
+@media (min-width: 768px) {
+    .phoneBar {
+        display: none;
+    }
+}
