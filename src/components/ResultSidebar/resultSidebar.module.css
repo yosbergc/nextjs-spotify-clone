@@ -1,0 +1,19 @@
+.resultSidebar {
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0px;
+    transition: 0.2s ease-out;
+}
+.resultSidebar small {
+    color: rgb(181, 181, 181);
+}
+.resultSidebar img {
+    border-radius: 8px;
+}
+.resultSidebar:hover {
+    background-color: rgb(38, 38, 38);
+    border-radius: 8px;
+    cursor: pointer;
+}
