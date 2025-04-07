@@ -1,0 +1,17 @@
+.filterSidebarContainer {
+    margin-top: 20px;
+    display: flex;
+    gap: 5px;
+}
+.filterSidebarContainer button {
+    background-color: #2a2a2a;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: #dfdfdf;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.filterSidebarContainer button:hover {
+    background-color: #454545;
+}
