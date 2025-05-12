@@ -3,5 +3,6 @@
         display: grid;
         grid-template-columns: 2fr 6fr;
         height: calc(100vh - 100px);
+        gap: 10px;
     }
 }

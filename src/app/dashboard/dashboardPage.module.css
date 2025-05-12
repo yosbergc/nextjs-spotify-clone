@@ -1,0 +1,6 @@
+.dashboardPage {
+    background-image: linear-gradient(to right top, #000000, #1b0014, #39002a, #4f003b, #7e005e);
+    min-height: 100vh;
+    width: 100%;
+    border-radius: 12px;
+}
